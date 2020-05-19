@@ -8,4 +8,7 @@ kubernetes and etcd certificates generator.
 ### 生成kubernetes CA及相关组件的证书及私钥
 ~]# bash gencerts.sh k8s
 
+```
+k8s的ca之间有依赖关系，需要注意签发的逻辑
 
+```
